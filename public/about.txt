@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Gotu
+- Font Author: Copyright (c) 2016, Ek Type. All rights reserved.
+- Font Source: http://fonts.gstatic.com/s/gotu/v14/o-0FIpksx3QOlH0Lioh6-hU.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

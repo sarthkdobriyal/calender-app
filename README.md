@@ -30,6 +30,7 @@ Steps to use the app -->
         - To go back to the  present day click on Today tab
         - Finally click on the logout button with red color to log out of the app and be redirected to the signup/login page
 
+
 In development--
 
 - Adding firestore database from firebase to store all the meetings in the cloud for each user and fetch them when the user logs in
