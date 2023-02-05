@@ -21,7 +21,8 @@ Steps to use the app -->
     - A calender is shown (By default four events are already added)
     - To add a new event, click on the greeen colored button saying add a new event.
     - A modal with fields to enter details of the event shows up
-    - Enter the details and click on the add event button
+    - Click the cross icon on top right corner in order to close the modal without adding any event
+    - Enter the details of the event or meeting and click on the add event button.
     - The event will be displayed on the calendar
     - Use the next and prev button to change months
     - Click on the week tab to view meetings and events for the week
