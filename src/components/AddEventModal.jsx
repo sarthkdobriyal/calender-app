@@ -2,6 +2,7 @@ import React from 'react'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css"
 import '../App.scss'
+import { v4 as uuid} from 'uuid'
 
 
 function AddEventModal({ newEvent, setNewEvent, setShowModal, setAllEvents}) {
@@ -26,7 +27,7 @@ function AddEventModal({ newEvent, setNewEvent, setShowModal, setAllEvents}) {
             <h3>Add Event Details</h3>
             <form  onSubmit={handleSubmit}>
                 
-                <input type="text" id="title" placeholder='Add Title' value={newEvent.title} onChange={(e) => setNewEvent({...newEvent,title:e.target.value})}/>
+                <input type="text" id="title" placeholder='Add Title' value={newEvent.title} onChange={(e) => setNewEvent({...newEvent,title:e.target.value, id: uuid()})}/>
                 
                 <input type="text" id="description" placeholder='Description' value={newEvent.description} onChange={(e) => setNewEvent({...newEvent,description:e.target.value})} />
                 <DatePicker

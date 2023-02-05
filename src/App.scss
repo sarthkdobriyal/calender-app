@@ -23,7 +23,6 @@
 
 
 
-/* Login page */
 .login{
   height: 100vh;
   background-color: rgba(63, 104, 102, 0.523);
@@ -166,14 +165,20 @@ background: -moz-linear-gradient(180deg,#5d5b8d 40%, #ffffff 100%);
   position: relative;
 
   .calender{
-    margin-top: -80px;
+    margin-top: -60px;
     position: relative;
     z-index: 10;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    .utils{
+      display: flex;
+      width: 100vw;
+      justify-content: center;
+      gap: 5px;
+    
     .addNew{
-      margin: 0 auto;
+      margin: 10px ;
 
       width: fit-content;
       padding: 10px 20px;
@@ -193,6 +198,7 @@ background: -moz-linear-gradient(180deg,#5d5b8d 40%, #ffffff 100%);
       }
 
     }
+  }
   }
 
   .modal{
@@ -269,6 +275,99 @@ background: -moz-linear-gradient(180deg,#5d5b8d 40%, #ffffff 100%);
         }
       }
 
+
+    }
+  }
+}
+
+//meetings modal
+.meetings{
+  position: absolute;
+  z-index: 20;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  .container{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    max-height: 80vh;
+    overflow-y: scroll;
+    position: relative;
+    img{
+      position: absolute;
+      width: 20px;
+      right: 8px;
+      top:5px;
+      cursor:pointer;
+    }
+    .event{
+      position: relative;
+      display: flex;
+      align-items: center;
+      box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+      margin-bottom: 10px;
+      padding: 15px;
+      border-radius: 5px;
+      .id{
+        position: absolute;
+        right: 2px;
+        top:0;
+        font-size: 0.6rem;
+        color: gray;
+
+      }
+      .eventDetails{
+        margin-top: 10px;
+        h2{
+          text-decoration: underline;
+        }
+        p{
+          font-family: cursive;
+          word-wrap: break-word;
+        }
+        span{
+          font-size: 0.7rem;
+          font-weight: 600;        
+        }
+      }
+      .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        gap: 5px;
+        .delete{
+          &:hover{
+            background-color: rgba(169, 46, 46, 0.686);
+          }
+          background-color: #c05252;
+        }
+        .edit{
+          &:hover{
+            background-color: rgba(49, 70, 143, 0.566);
+          }
+          background-color: #4f70af;
+        }
+        button{
+          width: 100%;
+          padding: 10px;
+          border: none;
+          outline: none;
+          color: white;
+          border-radius: 10px;
+          cursor: pointer;
+
+        }
+      }
 
     }
   }

@@ -5,11 +5,12 @@ import Calender from './Pages/Calender';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { AuthContext } from './context/AuthContext';
+import { EventContextProvider } from './context/EventContext';
 
 function App() {
 
   const currentUser = useContext(AuthContext);
-  console.log(currentUser)
+  // console.log(currentUser)
 
   const ProtectedRoute = ({children}) => {
     if(!currentUser){
@@ -26,9 +27,11 @@ function App() {
           <Route path="/">
 
           <Route index element={
-            <ProtectedRoute>
+             <ProtectedRoute>
+            <EventContextProvider>
               <Calender />
-            </ProtectedRoute>
+            </EventContextProvider>
+             </ProtectedRoute> 
             } />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />

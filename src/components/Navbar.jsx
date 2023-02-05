@@ -7,7 +7,7 @@ import { auth } from '../firebase';
 
 function Navbar() {
     const currrentUser = useContext(AuthContext);
-    console.log("from navbar", currrentUser)
+    
 
   return (
     <div className='navbar'>
