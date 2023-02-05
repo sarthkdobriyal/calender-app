@@ -1,4 +1,4 @@
-A Calender-app created using reactjs
+# A Calender-app created using reactjs
 
 Functionalities -> 
     - login/signup using email and password
