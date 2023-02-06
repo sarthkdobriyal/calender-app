@@ -2,8 +2,11 @@
 
 Functionalities -> 
 - login/signup using email and password 
-- Signup using email and password 
-- Add events to the calender 
+- logout functionality
+- Add events to the calender with precise timings
+- Delete events from the calender
+- View events in a easy to understand manner
+- Edit events whenever necessary
 - Great UI easy to use 
 
 Technology used --> 
