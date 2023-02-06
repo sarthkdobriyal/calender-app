@@ -53,17 +53,17 @@ function Calender() {
         end:""
     })
 
-    // const [allEvents, setAllEvents] = useState(events);
+    
 
     const {allEvents, setAllEvents} = useContext(EventContext);
 
-    const [showModal, setShowModal] = useState(false);
+    const [showAddEventModal, setShowAddEventModal] = useState(false);
 
     const [showMeetingsModal, setShowMeetingsModal] = useState(false);
 
 
     const handleModal  = () => {
-        setShowModal(true);
+        setShowAddEventModal(true);
     } 
 
     
@@ -72,10 +72,10 @@ function Calender() {
     <div className='main'>
         <Navbar />
 
-        {showModal && <AddEventModal
+        {showAddEventModal && <AddEventModal
             newEvent={newEvent}
             setNewEvent={setNewEvent}
-            setShowModal={setShowModal}
+            setShowAddEventModal={setShowAddEventModal}
             setAllEvents={setAllEvents}
         />}
 
@@ -85,6 +85,8 @@ function Calender() {
                 allEvents={allEvents}
                 setAllEvents={setAllEvents}
                 setShowMeetingsModal={setShowMeetingsModal}
+                setShowAddEventModal={setShowAddEventModal}
+                setNewEvent={setNewEvent}
             />
         }
 

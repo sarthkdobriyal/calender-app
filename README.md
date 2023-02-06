@@ -26,6 +26,7 @@ Steps to use the app -->
     -Click on the green button saying show all events to view all the events
     -All the events with all the details are then displayed on screen on a modal
     -Use the delete button to delete any event.
+    -Click on the edit button to edit any event and then add the event.
     -Use the next and prev button to change months
     -Click on the week tab to view meetings and events for the week
     -Click the Day tab to view meetings for the day

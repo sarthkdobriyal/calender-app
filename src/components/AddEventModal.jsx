@@ -5,11 +5,10 @@ import '../App.scss'
 import { v4 as uuid} from 'uuid'
 
 
-function AddEventModal({ newEvent, setNewEvent, setShowModal, setAllEvents}) {
+function AddEventModal({ newEvent, setNewEvent, setShowAddEventModal, setAllEvents}) {
 
-    const handleSubmit= () => {
-
-        console.log(newEvent);
+    const handleSubmit= (e) => {
+        e.preventDefault();
         setAllEvents(prevState => ([...prevState,newEvent]))
         setNewEvent({
             title: "",
@@ -17,15 +16,15 @@ function AddEventModal({ newEvent, setNewEvent, setShowModal, setAllEvents}) {
             start:"",
             end:""
         })
-        setShowModal(false);
+        setShowAddEventModal(false);
     }
 
   return (
     <div className='modal'>
         <div className='container'>
-            <img src="https://www.svgrepo.com/show/135247/multiply.svg" alt="" className='cross' onClick={() => setShowModal(false)} />
+            <img src="https://www.svgrepo.com/show/135247/multiply.svg" alt="" className='cross' onClick={() => setShowAddEventModal(false)} />
             <h3>Add Event Details</h3>
-            <form  onSubmit={handleSubmit}>
+            <form  onSubmit={(e) => handleSubmit(e)}>
                 
                 <input type="text" id="title" placeholder='Add Title' value={newEvent.title} onChange={(e) => setNewEvent({...newEvent,title:e.target.value, id: uuid()})}/>
                 

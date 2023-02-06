@@ -2,12 +2,21 @@ import React from 'react'
 import '../App.scss'
 
 
-function MeetingsModal({allEvents, setAllEvents, setShowMeetingsModal}) {
+function MeetingsModal({allEvents, setAllEvents, setShowMeetingsModal, setShowAddEventModal,setNewEvent}) {
     
     const handleDelete = (id) => {
+        
         const newAllEvents = allEvents.filter((event) => event.id !== id);
         setAllEvents(newAllEvents);
         
+    }
+
+    const handleEdit = (id) => {
+        const eventToedit = allEvents.filter((event) => event.id === id);
+        setNewEvent(eventToedit[0]);
+        handleDelete(id);
+        setShowMeetingsModal(false);
+        setShowAddEventModal(true);
     }
 
   return (
@@ -27,7 +36,7 @@ function MeetingsModal({allEvents, setAllEvents, setShowMeetingsModal}) {
                             <span className='end'>{event.end.toLocaleString()}</span>
                         </div>
                         <div className='buttons'>
-                            <button className='edit'>Edit</button>
+                            <button className='edit' onClick={() => handleEdit(event.id)}>Edit</button>
                             <button className='delete' onClick={() => handleDelete(event.id)}>Delete</button>
                         </div>
 
