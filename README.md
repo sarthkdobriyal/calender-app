@@ -18,11 +18,14 @@ Steps to use the app -->
 -Enter the name, email and password then click on sign up to be redirected to the main page 
 -If you already have an account click on the Login link below the sign up button then enter email and password and click on login 
 -On the main the page  
-    -A calender is shown (By default four events are already added) 
+    -A calender is shown (By default three events are already added) 
     -To add a new event, click on the greeen colored button saying add a new event. 
     -A modal with fields to enter details of the event shows up 
     -Enter the details and click on the add event button 
     -The event will be displayed on the calendar 
+    -Click on the green button saying show all events to view all the events
+    -All the events with all the details are then displayed on screen on a modal
+    -Use the delete button to delete any event.
     -Use the next and prev button to change months
     -Click on the week tab to view meetings and events for the week
     -Click the Day tab to view meetings for the day
