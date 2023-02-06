@@ -3,6 +3,8 @@
 Functionalities -> 
 - login/signup using email and password 
 - logout functionality
+- Display all the events on the calendar 
+- Easy to keep track of all your events
 - Add events to the calender with precise timings
 - Delete events from the calender
 - View events in a easy to understand manner
@@ -41,6 +43,6 @@ In development-->
 
 - Adding firestore database from firebase to store all the meetings in the cloud for each user and fetch them when the user logs in
 - Adding more methods of authentication using google authentication
-
+- Adding a reminder functionality to remind of upcoming meetings using email or sms
 
 
