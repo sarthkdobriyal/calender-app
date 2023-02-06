@@ -1,6 +1,6 @@
 # A Calender-app created using reactjs
 
-Functionalities -> 
+## Functionalities -> 
 - login/signup using email and password 
 - logout functionality
 - Display all the events on the calendar 
@@ -11,14 +11,14 @@ Functionalities ->
 - Edit events whenever necessary
 - Great UI easy to use 
 
-Technology used --> 
+## Technology used --> 
 - react-big-calendar for displaying the calender 
 - react-datepicker to choose date and time of the event to add 
 - Context API for the state management 
 - Authentication using email and password powered by Google Firebase 
 - SCSS for the styling 
  
-Steps to use the app -->
+## Steps to use the app -->
 - The very first page is the sign up page to register with an account. 
 - Enter the name, email and password then click on sign up to be redirected to the main page 
 - If you already have an account click on the Login link below the sign up button then enter email and password and click on login 
