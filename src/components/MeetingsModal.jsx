@@ -40,7 +40,7 @@ function MeetingsModal({allEvents, setAllEvents, setShowMeetingsModal, setShowAd
                             <button className='delete' onClick={() => handleDelete(event.id)}>Delete</button>
                         </div>
 
-                            </div>
+                        </div>
                     )
                 })
             }
