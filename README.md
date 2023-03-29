@@ -1,43 +1,56 @@
 # A Calender-app created using reactjs
 
-## Functionalities -> 
-- login/signup using email and password 
-- logout functionality
-- Display all the events on the calendar 
-- Easy to keep track of all your events
-- Add events to the calender with precise timings
-- Delete events from the calender
-- View events in a easy to understand manner
-- Edit events whenever necessary
-- Great UI easy to use 
+## Core Development Work:
 
-## Technology used --> 
-- react-big-calendar for displaying the calender 
-- react-datepicker to choose date and time of the event to add 
-- Context API for the state management 
-- Authentication using email and password powered by Google Firebase 
-- SCSS for the styling 
+- Implemented the login/signup functionality using email and password.
+- Created a calendar view to display all the events using react-big-calendar.
+- Provided easy ways to keep track of all events by displaying them on the calendar.
+- Implemented the functionality to add events to the calendar with precise timings using react-datepicker.
+- Enabled deletion of events from the calendar and editing events when necessary.
+- Designed a great UI that is easy to use and view events in an easy-to-understand manner.
+- Implemented the logout functionality for the user.
+## Technologies Used:
+- ReactJS, a JavaScript library for building user interfaces.
+- React-big-calendar and react-datepicker for displaying the calendar and adding events with precise timings.
+- Context API, a state management system for React, to manage the app's state.
+- Google Firebase for authentication using email and password.
+- SCSS, a preprocessor scripting language, for styling the app.
+## Responsibilities:
+- Designed and developed the calendar app from scratch.
+- Ensured that the app meets the requirements of the client and provides a great user experience.
+- Worked on implementing the different functionalities of the app, such as adding, editing, and deleting events.
+- Integrated the various technologies used in the project and ensured smooth functioning of the app.
+## Challenges:
+- Integrating the different technologies used in the project and ensuring that they work together seamlessly.
+- Designing a UI that is both aesthetically pleasing and easy to use.
+- Ensuring that the app is responsive and works well on different devices and screen sizes.
+## Achievements:
+- Successfully developed a calendar app that meets the requirements of the client and provides a great user experience.- 
+- Designed a UI that is intuitive and easy to use.
+- Ensured that the app works well on different devices and screen sizes.
+
  
 ## Steps to use the app -->
-- The very first page is the sign up page to register with an account. 
-- Enter the name, email and password then click on sign up to be redirected to the main page 
-- If you already have an account click on the Login link below the sign up button then enter email and password and click on login 
-- On the main the page  
-    - A calender is shown (By default three events are already added) 
-    - To add a new event, click on the greeen colored button saying add a new event. 
-    - A modal with fields to enter details of the event shows up 
-    - Enter the details and click on the add event button 
-    - The event will be displayed on the calendar 
-    - Click on the green button saying show all events to view all the events
-    - All the events with all the details are then displayed on screen on a modal
-    - Use the delete button to delete any event.
-    - Click on the edit button to edit any event and then add the event.
-    - Use the next and prev button to change months
-    - Click on the week tab to view meetings and events for the week
-    - Click the Day tab to view meetings for the day
-    - To view all the meetings and events ordered by time click on agenda tab
-    - To go back to the  present day click on Today tab
-    - Finally click on the logout button with red color to log out of the app and be redirected to the signup/login page
+
+- Sign up for an account by providing your name, email, and password on the sign-up page. Click "Sign up" to register and be redirected to the main page.
+
+- If you already have an account, click on the "Login" link below the sign-up button, then enter your email and password to log in.
+
+- On the main page, you'll see a calendar displaying three default events. To add a new event, click on the green "Add a new event" button.
+
+- A modal will appear with fields to enter the details of the event. Fill in the required details and click "Add event" to save it.
+
+- The event will be displayed on the calendar. To view all the events, click on the green "Show all events" button.
+
+- All events with their details will be displayed on a modal. To delete an event, use the "Delete" button. To edit an event, click on the "Edit" button and make the necessary changes before saving.
+
+- Use the "Next" and "Prev" buttons to change months on the calendar.
+
+- Click on the "Week" tab to view meetings and events for the week, "Day" tab to view meetings for the day, and "Agenda" tab to view all meetings and events ordered by time.
+
+- Click on the "Today" tab to return to the present day.
+
+- To log out of the app, click on the red "Logout" button and you will be redirected to the sign-up/login page.
 
 In development-->
 
