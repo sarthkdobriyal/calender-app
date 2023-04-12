@@ -1,4 +1,5 @@
-# A Calender-app created using reactjs
+# Calendar Manager
+Calendar Manager is a web application that allows users to manage their events by displaying them on a calendar. The application provides login/signup functionality using email and password, and enables users to add, edit, and delete events with precise timings using react-datepicker. The UI is designed to be user-friendly and easy-to-understand, with events displayed in an intuitive manner on the calendar.
 
 ## Core Development Work:
 
@@ -52,7 +53,7 @@
 
 - To log out of the app, click on the red "Logout" button and you will be redirected to the sign-up/login page.
 
-In development-->
+### In development-->
 
 - Adding firestore database from firebase to store all the meetings in the cloud for each user and fetch them when the user logs in
 - Adding more methods of authentication using google authentication
