@@ -1,21 +1,30 @@
 # Calendar Manager
 Calendar Manager is a web application that allows users to manage their events by displaying them on a calendar. The application provides login/signup functionality using email and password, and enables users to add, edit, and delete events with precise timings using react-datepicker. The UI is designed to be user-friendly and easy-to-understand, with events displayed in an intuitive manner on the calendar.
 
-## Core Development Work:
+# Key Features:
 
-- Implemented the login/signup functionality using email and password.
-- Created a calendar view to display all the events using react-big-calendar.
-- Provided easy ways to keep track of all events by displaying them on the calendar.
-- Implemented the functionality to add events to the calendar with precise timings using react-datepicker.
-- Enabled deletion of events from the calendar and editing events when necessary.
-- Designed a great UI that is easy to use and view events in an easy-to-understand manner.
-- Implemented the logout functionality for the user.
-## Technologies Used:
+- Implemented the login/signup functionality using email and password for secure user authentication.
+- Created a calendar view to display all the events using react-big-calendar, allowing users to view events by day, week, or month.
+- Provided easy ways to keep track of all events by displaying them on the calendar with intuitive markers and details.
+- Implemented the functionality to add events to the calendar with precise timings using react-datepicker, making it easy for users to schedule events.
+- Enabled deletion of events from the calendar and editing events when necessary, providing users with flexibility to manage their events.
+- Designed a great UI that is easy to use and view events in an easy-to-understand manner, with clear and concise event details and markers.
+- Implemented the logout functionality for the user, allowing them to securely log out and protect their account.
+
+# Technologies Used:
 - ReactJS, a JavaScript library for building user interfaces.
 - React-big-calendar and react-datepicker for displaying the calendar and adding events with precise timings.
 - Context API, a state management system for React, to manage the app's state.
 - Google Firebase for authentication using email and password.
 - SCSS, a preprocessor scripting language, for styling the app.
+# Contributing:
+
+Contributions to Calendar Manager are welcome! If you find any bugs or have ideas for additional features, please open an issue or pull request on the GitHub repository.
+
+# License:
+
+Event Manager is licensed under the MIT license.
+
 ## Responsibilities:
 - Designed and developed the calendar app from scratch.
 - Ensured that the app meets the requirements of the client and provides a great user experience.
@@ -31,7 +40,7 @@ Calendar Manager is a web application that allows users to manage their events b
 - Ensured that the app works well on different devices and screen sizes.
 
  
-## Steps to use the app -->
+# Usage
 
 - Sign up for an account by providing your name, email, and password on the sign-up page. Click "Sign up" to register and be redirected to the main page.
 
